@@ -7,9 +7,11 @@ html {
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
+  color: white;
 }
 body{
   background: var(--color-bg);
+  
 }
 a{
   color: unset;
@@ -21,7 +23,7 @@ a{
     background: radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%)
    
 }
-.gardiant_text{
+.gradient_text{
   background: var(--gradient-text);
   background-clip: text;
   -webkit-background-clip: text;
