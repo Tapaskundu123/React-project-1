@@ -1,8 +1,14 @@
 import React from 'react'
+import Feature from '../../components/Feature/Feature.jsx'
 import './WhatGPT3.css'
 const WhatGPT3 = () => {
   return (
-    <div>WhatGPT3</div>
+    <div className='whatGPT3-container'>
+
+      <div className='gpt-3_1st_text'>
+       <Feature /> 
+      </div>
+    </div>
   )
 }
 

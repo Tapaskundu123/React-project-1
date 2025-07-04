@@ -20,12 +20,16 @@ p{
     margin-right: 2rem;
 }
 .gpt3_navbar_links_logo img{
-    height: 16.02px;
+    height: 30px;
     width: 62.56px;
 }
 .gpt3-navbar-links-container{
     display: flex;
-    gap: 1rem;
+    gap: 1.25rem;
+   
+}
+.gpt3-navbar-links-container p{
+ font-size: small;
 }
 /* .gpt3-navbar-links{
     display: flex;
@@ -35,7 +39,10 @@ p{
     display: flex;
     gap: 1rem;
     align-items: center;
-   
+    font-size: small;
+  }
+  .gpt3_navbar-sign p{
+    font-size: 16px;
   }
  .gpt3_navbar-sign button{
     /* width: 152px;
@@ -45,26 +52,23 @@ p{
     color: white;
     border-radius: 5px;
      border: none;
-     font-weight: 500;
+     font-weight: bold;
+    
      cursor: pointer;
      outline: none;
  }
  .menu-btn{
     display: none;
  }
-
-@media screen and (max-width:770px){
-  .gpt3-navbar-links-container{
+@media screen and (max-width:1050px){
+    .gpt3-navbar-links-container{
     display: none;
-}
-.gpt3_navbar{
-    padding: 2rem 4rem;
 }
  .menu-btn{
     display: block;
     color: white;
  }
- .close-btn{
+  .close-btn{
     position: relative;
     color: white;
     
@@ -75,13 +79,23 @@ p{
     flex-direction: column;
     gap: 1rem;
     position: absolute;
-    top: 100px;
+    top: 80px;
     right: 20px;
     padding:  1rem;
     border-radius: 1rem ;
-    background-color: 0 0 5 rgba(0,0,0,0.2);
+    background-color: rgb(0, 0, 3);
+    color: white;
+    z-index: 50;
 
  }
+}
+@media screen and (max-width:770px){
+
+.gpt3_navbar{
+    padding: 2rem 4rem;
+}
+
+
 
  }
  @media screen and (max-width:550px){

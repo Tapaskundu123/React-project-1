@@ -1,0 +1,138 @@
+.Hero-img-div img{
+   height: 600px;
+ 
+}
+.hero-text h1{
+    color: white;
+    font-weight: 800;
+    font-size: 62px;
+    line-height: 75px;
+    letter-spacing: -0.04em;
+}
+
+.gradient__text {
+  background: var(--gradient-text);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero-text p{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: var(--color-text);
+
+    margin-top: 1.5rem;
+}
+.Hero-div-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 6rem;
+}
+.hero-text input{
+max-width: 400px;
+width: 100%;
+min-height: 50px;
+height: 100%;
+border-radius: 5px;
+font-size: 20px;
+padding-left: 1rem;
+border: 2px solid var(--color-footer);
+/* background-color: rgb(14, 14, 59); */
+background: var(--color-footer);
+border: none;
+color: white;
+}
+.hero-text button{
+    min-height:50px;
+    height: 100%;
+    max-width: 200px;
+    width: 100%;
+    padding: 0.5rem 1rem;
+    background-color: #ff4820;
+    color: white;
+    border-radius: 2px;
+     border: none;
+     font-weight: 500;
+     cursor: pointer;
+     outline: none;
+}
+.hero-input-button-div{
+    margin-top: 40px;
+}
+.people-div{
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    align-items: center;
+}
+.people-div p{
+    padding: 0;
+    margin: 0;
+    font-size: small;
+}
+@media screen and (max-width:1050px){
+    .Hero-div-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .hero-text input{
+        width: 400px;
+    }
+    .hero-text button{
+        width: 150px;
+        padding: 1rem;
+    }
+}
+@media screen and (max-width:650px){
+    .Hero-img-div img{
+     height: 400px;
+
+}
+
+.hero-text h1{
+    font-size: 48px;
+     line-height: 60px;
+}
+    .gpt3__header-content p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .hero-text input, button {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    
+   
+}
+
+ @media screen and (max-width:550px){
+    .Hero-img-div img{
+     height: 300px;
+}
+.people-div{
+    display: flex;
+    flex-direction: column;
+    
+}
+.hero-text input{
+        width: 250px;
+        height:30px;
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .hero-text button{
+        width: 100px ;
+    }
+    .people-div img{
+        height: 30px
+    }
+     .people-div p{
+         font-size: 14px;
+         line-height: 18px;
+     }
+ }

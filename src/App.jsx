@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Blogs, Footer, Features, Header, Possibility, WhatGPT3 } from './Containers'
+import { Blogs, Footer, Features, Hero, Possibility, WhatGPT3 } from './Containers'
 import { Navbar, CTA, Brand } from './components' 
 import './App.css'
 
@@ -11,6 +11,7 @@ function App() {
       <Navbar/>
       {/* <Header/> */}
      </div>
+    <Hero/>
     <Brand/>
     <WhatGPT3/>
     <Features/>
