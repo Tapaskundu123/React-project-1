@@ -1,0 +1,55 @@
+.PossibilityImg img{
+    height: 600px;
+}
+.possibility-full-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 4rem 4rem;
+}
+.possibility-text-div{
+    padding: 4rem 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.possibility-text-div p{
+  width: 400px;
+  color: var(--color-text);
+  line-height: 30px;
+}
+.possibility-text-div h4{
+  color: var(--color-subtext);
+} 
+h1{
+ background: var(--gradient-text);
+  background-clip: text;
+   -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media screen and (max-width:1050px){
+  .PossibilityImg img{
+    height: 300px;
+}
+.possibility-full-container{
+   justify-content: center;
+   align-items: center;
+}
+.possibility-text-div{
+  gap: 20px;
+}
+
+}
+@media screen and (max-width:600px){
+  
+.possibility-text-div{
+  width: 300px;
+  padding: 2rem 1rem;
+}
+.possibility-text-div p{
+    width: 200px;
+    font-size: 14px;
+    line-height: 15px;
+}
+}

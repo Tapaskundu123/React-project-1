@@ -1,6 +1,7 @@
 .gpt-3_feature_1st{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     padding: 2rem 4rem;
 }
 .gpt-3_feature_1st p{
@@ -20,17 +21,67 @@
     letter-spacing: -0.04em;
     color: #fff;
 }
+.possibilities{
+
+   padding: 2rem 8rem 2rem 4rem;
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
 .possibilities h1{
-    font-size: 32px;
-    width: 620px;
-    padding: 2rem 4rem ;
-    color: var(--gradient-text);
+    font-size: 42px;
+    flex: 1;
+    max-width: 600px;  
+    font-weight: bolder;
+    background: linear-gradient(90deg, #ae67fa 0%, #f49867 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+.possibilities p{
+    font-size: x-large;
+    background: linear-gradient(90deg, #ae67fa 0%, #f49867 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
 }
 .gpt-3-feature-3rd{
    display: flex;
    justify-content: space-between;
+   flex-wrap: wrap;
    padding: 6rem 4rem;
 }
 .feature-container{
     padding: 4rem 4rem;
+    background:-moz-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    /* opera 11.10+ */
+    background:-o-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    /* ie 10+ */
+    background:-ms-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    /* global 92%+ browsers support */
+    background:radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.gpt-3-box-3rd{
+    width: 300px;
+}
+.gpt-3-box-3rd p{
+    font-size: smaller;
+    padding: 0.35rem 0;
+    color: var(--color-text);
+}
+.gpt-3-design{
+    height: 3px;
+    width: 60px;
+    background: var(--gradient-bar);
+    border-radius: 0.25rem;
 }
